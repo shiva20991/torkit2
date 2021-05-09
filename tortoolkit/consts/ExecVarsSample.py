@@ -5,17 +5,17 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = "97bebcbb692546bce29934291c5c2998"
-        API_ID = 2068926
-        BOT_TOKEN = "1415747350:AAGgVUBfB8-oDfbY7T7S62QwUS_XsoeIvo4"
-        BASE_URL_OF_BOT = "https://megatunemedoet.herokuapp.com"
+        API_HASH = "38676d5d14b01fbb9fcf4da31f9377d4"
+        API_ID = 3220708
+        BOT_TOKEN = "1791673620:AAGUp6xouC8kudVk-ymK21Zqnb9ZtMERlWI"
+        BASE_URL_OF_BOT = "https://htoolkit.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [-1001209420449]
-        OWNER_ID = 810796147
+        ALD_USR = [-1001326693752]
+        OWNER_ID = 1533501801
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -36,13 +36,13 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = ""
+        DB_URI = "postgres://meuwyqchytxqhh:55348fa246007d6665d24f495479ee80eb8e3ec3b15b441c42321ce4579025de@ec2-54-246-90-10.eu-west-1.compute.amazonaws.com:5432/d97v5bdkicok55"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # The base direcory to which the files will be upload if using RCLONE
-        RCLONE_BASE_DIR = "/"
+        RCLONE_BASE_DIR = "htortoolkit"
 
         # This value will be considered only if Rclone is True - this may be defied now ;)
         # Cuz at least one needs to be Ture at a time either RCLONE or Leech.
@@ -56,7 +56,7 @@ except:
         DEFAULT_TIMEOUT = "leech"
 
         # For vps set path here or you can use runtime too
-        RCLONE_CONFIG = False
+        RCLONE_CONFIG = True
         
         # Name of the RCLONE drive from the config
         DEF_RCLONE_DRIVE = ""
